@@ -1,0 +1,123 @@
+ .hero {
+  padding: 60px 20px;
+  background: #0e0d1b;
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  color:  #6b21a8;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #d5d5d5;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+   
+}
+
+.social-icons svg {
+  color:  #6b21a8;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons svg:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.introduction-section {
+  margin-top: 60px;
+  padding: 30px 20px;
+  background-color: #141225;
+  border-top: 1px solid #2c2a4a;
+  border-radius: 12px;
+}
+
+.intro-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color:  #6b21a8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.introduction-section p {
+  font-size: 1.1rem;
+  color: #dcdcdc;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color:  #6b21a8;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color:  #6b21a8;
+  transform: scale(1.1);
+}
+/* styles/Home.css */
+
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 50px 50px; /* Fixes top gap to match navbar */
+  background-color: #0f0f2d; /* match your theme */
+  margin: 0; /* REMOVE margin if any */
+}
+

@@ -1,0 +1,223 @@
+ .masjid-section {
+  background-color: #0b0b2b;
+  color: #ffffff;
+  padding: 5rem 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  position: relative;
+}
+
+.masjid-heading {
+  font-size: 2.8rem;
+  color: #6b21a8;
+  margin-bottom: 0.5rem;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.masjid-subheading {
+  font-size: 1.2rem;
+  color: #cfcfcf;
+  margin-bottom: 1.8rem;
+  animation: fadeInDown 1.2s ease-in-out;
+}
+
+.masjid-intro {
+  max-width: 720px;
+  margin: 0 auto 3rem;
+  font-size: 1rem;
+  color: #d0d0e0;
+  line-height: 1.6;
+  animation: fadeInDown 1.4s ease-in-out;
+}
+
+.masjid-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.masjid-card {
+  background: #1e1e3f;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 280px;
+  text-align: center;
+  animation: fadeInUp 1s ease forwards;
+  box-shadow: 0 6px 15px rgba(187, 134, 252, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  text-decoration: none;
+}
+
+.masjid-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(187, 134, 252, 0.3);
+}
+
+.masjid-icon-wrapper {
+  background-color: rgba(107, 33, 168, 0.1);
+  border-radius: 50%;
+  padding: 1rem;
+  display: inline-flex;
+  margin-bottom: 1rem;
+  border: 2px solid #6b21a8;
+}
+
+.masjid-icon {
+  font-size: 2rem;
+  color: #6b21a8;
+}
+
+.masjid-card h3 {
+  color: #6b21a8;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.masjid-card p {
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .masjid-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+.white-text {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.purple-text {
+  color: #9333ea;
+  font-weight: 700;
+}
+/* Add after .masjid-intro */
+.search-bar {
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background-color: #1e1e3f;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(147, 51, 234, 0.2);
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar input::placeholder {
+  color: #aaa;
+}
+
+.search-bar input:focus {
+  box-shadow: 0 0 0 2px #9333ea;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9333ea;
+  font-size: 1.2rem;
+}
+
+/* Optional: message for no results */
+.no-results {
+  margin-top: 2rem;
+  color: #bbb;
+  font-style: italic;
+}
+.purple-text {
+  color: #9333ea;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.masjid-card h3 {
+  color: #9333ea;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+.tasbeeh-counter {
+  margin-top: 60px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #8e44ad;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(142, 68, 173, 0.3);
+}
+
+.tasbeeh-title {
+  font-size: 1.6rem;
+  color: #a472e8;
+  margin-bottom: 10px;
+}
+
+.tasbeeh-count {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.tasbeeh-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color:  #8e44ad;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tasbeeh-buttons button:hover {
+  background-color:   #8e44ad;
+}

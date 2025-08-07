@@ -1,0 +1,280 @@
+ .about-section {
+  background-color: #0d0d1a;
+  color: #fff;
+  padding: 4rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  line-height: 1.8;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-heading span {
+  color: #bb68fc;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content {
+  flex: 1 1 550px;
+  font-size: 1.2rem;
+}
+
+.about-image {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(187, 104, 252, 0.3);
+}
+
+.highlight-purple {
+  color: #bb68fc;
+}
+
+.highlight-blue {
+  color: #82caff;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.about-list li {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.about-list svg {
+  margin-right: 10px;
+  color: #bb68fc;
+}
+
+.quote {
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+  color: #b9a1d5;
+  text-align: center;
+  font-style: italic;
+}
+
+/* -------------------
+   JUZ SECTION STYLES
+------------------- */
+.juz-wrapper {
+  margin-top: 4rem;
+  padding: 3rem 1rem 2rem;
+  background-color: #0d0d1a;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.juz-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.juz-title .highlight-purple {
+  color:  #6b21a8;
+}
+
+.juz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.juz-card {  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid  #6b21a8;
+  border-radius: 12px;
+  padding: 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #eaeaea;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(187, 104, 252, 0.08);
+}
+
+.juz-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(187, 104, 252, 0.25);
+  background-color: rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content, .about-image {
+    flex: 1 1 100%;
+  }
+
+  .about-image img {
+    max-width: 80%;
+    margin-top: 2rem;
+  }
+
+  .juz-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .juz-title {
+    font-size: 1.5rem;
+  }
+  .juz-card .juz-name {
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: #cfcfcf;
+}
+
+}
+.juz-search {
+  width: 100%;
+  max-width: 400px;
+  margin: 1.5rem auto 2rem;
+  display: block;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #1c1c2e;
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(187, 104, 252, 0.2);
+}
+
+.juz-search::placeholder {
+  color: #aaa;
+}
+
+.juz-search:focus {
+  box-shadow: 0 0 12px rgba(130, 202, 255, 0.4);
+}
+
+.no-results {
+  text-align: center;
+  font-style: italic;
+  color: #ccc;
+  margin-top: 2rem;
+}
+/* Neon card styling */
+.neon-card {
+  background: rgba(20, 20, 40, 0.8);
+  border: 1px solid #bb68fc;
+  box-shadow: 0 0 12px #bb68fc, 0 0 25px #9b5de5, 0 0 35px #6a0dad;
+  transition: 0.4s ease-in-out;
+}
+
+.neon-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px #c084fc, 0 0 30px #a855f7, 0 0 40px #9333ea;
+  background: rgba(40, 20, 60, 0.9);
+}
+
+/* Center juz-grid container */
+.juz-grid {
+  display: grid;
+  justify-content: center; /* centers grid horizontally */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.juz-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.juz-wrapper {
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.juz-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.juz-search {
+  padding: 0.7rem 1.2rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  background-color: #1a1a3d;
+  color: #fff;
+}
+
+.juz-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.juz-card {
+  width: 250px;
+  background: #1f1f3f;
+  border-radius: 10px;
+  padding: 1.2rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #7f00ff33;
+  position: relative;
+}
+
+.juz-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px #7f00ff, 0 0 20px #000 inset;
+}
+
+.juz-name {
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+  color: #c5c5f5;
+}
+
+.no-results {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #ccc;
+}

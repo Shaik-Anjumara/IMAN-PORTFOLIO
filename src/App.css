@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+.horizontal-scroll {
+  display: block;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+ .page {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* src/styles/App.css */
+
+/* Set full height container with vertical scroll snap */
+.snap-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+/* Each section is full screen and snaps into place */
+.snap-section {
+  height: 100vh;
+  scroll-snap-align: start;
+  overflow: hidden;
+}
+
+/* Disable manual scroll globally */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Optional: disable mouse wheel and touch scroll */
+.snap-container {
+  pointer-events: none; /* Disable all interaction */
+}
+
+.snap-container section {
+  pointer-events: auto; /* Enable interaction only inside sections */
+}
+
