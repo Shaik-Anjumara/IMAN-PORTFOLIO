@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/iman-PORTFOLIO/static/css/main.65d2df93.css",
-    "main.js": "/iman-PORTFOLIO/static/js/main.0ce2adbb.js",
-    "static/media/home.png": "/iman-PORTFOLIO/static/media/home.fa403a8233f425ca1079.png",
-    "static/media/imanAboutIllustration.png": "/iman-PORTFOLIO/static/media/imanAboutIllustration.ac22e1298ae5e34dc66e.png",
-    "static/media/fa-solid-900.woff2": "/iman-PORTFOLIO/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
-    "static/media/fa-brands-400.woff2": "/iman-PORTFOLIO/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
-    "static/media/hero-image.png": "/iman-PORTFOLIO/static/media/hero-image.974af26a531a3c8f651a.png",
-    "static/media/fa-regular-400.woff2": "/iman-PORTFOLIO/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
-    "static/media/ruku.png": "/iman-PORTFOLIO/static/media/ruku.43d10286e904f2b2b2cb.png",
-    "static/media/standing.png": "/iman-PORTFOLIO/static/media/standing.a7e16f8af9e659070093.png",
-    "static/media/tashahhud.png": "/iman-PORTFOLIO/static/media/tashahhud.bcaa64935d835ff5ae07.png",
-    "static/media/fa-v4compatibility.woff2": "/iman-PORTFOLIO/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
-    "index.html": "/iman-PORTFOLIO/index.html",
-    "main.65d2df93.css.map": "/iman-PORTFOLIO/static/css/main.65d2df93.css.map",
-    "main.0ce2adbb.js.map": "/iman-PORTFOLIO/static/js/main.0ce2adbb.js.map"
+    "main.css": "/IMAN-PORTFOLIO/static/css/main.91c17ef2.css",
+    "main.js": "/IMAN-PORTFOLIO/static/js/main.af5813a9.js",
+    "static/media/home.png": "/IMAN-PORTFOLIO/static/media/home.fa403a8233f425ca1079.png",
+    "static/media/imanAboutIllustration.png": "/IMAN-PORTFOLIO/static/media/imanAboutIllustration.ac22e1298ae5e34dc66e.png",
+    "static/media/fa-solid-900.woff2": "/IMAN-PORTFOLIO/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
+    "static/media/fa-brands-400.woff2": "/IMAN-PORTFOLIO/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
+    "static/media/hero-image.png": "/IMAN-PORTFOLIO/static/media/hero-image.974af26a531a3c8f651a.png",
+    "static/media/fa-regular-400.woff2": "/IMAN-PORTFOLIO/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
+    "static/media/ruku.png": "/IMAN-PORTFOLIO/static/media/ruku.43d10286e904f2b2b2cb.png",
+    "static/media/standing.png": "/IMAN-PORTFOLIO/static/media/standing.a7e16f8af9e659070093.png",
+    "static/media/tashahhud.png": "/IMAN-PORTFOLIO/static/media/tashahhud.bcaa64935d835ff5ae07.png",
+    "static/media/fa-v4compatibility.woff2": "/IMAN-PORTFOLIO/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
+    "index.html": "/IMAN-PORTFOLIO/index.html",
+    "main.91c17ef2.css.map": "/IMAN-PORTFOLIO/static/css/main.91c17ef2.css.map",
+    "main.af5813a9.js.map": "/IMAN-PORTFOLIO/static/js/main.af5813a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.65d2df93.css",
-    "static/js/main.0ce2adbb.js"
+    "static/css/main.91c17ef2.css",
+    "static/js/main.af5813a9.js"
   ]
 }
